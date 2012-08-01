@@ -1,0 +1,19 @@
+{
+    "name": "two",
+    "description": "",
+    "version": "0.0.1",
+    "keywords": [ "" ],
+    "maintainers": [ "" ],
+    "contributors": [ "" ],
+    "licenses": [ "MIT" ],
+    "repositories": {
+        "type": "git",
+        "url": "http://github.com//main.git"
+    },
+    "dependencies": {},
+    "yahoo": {
+        "mojito": {
+            "version": "*"
+        }
+    }
+}

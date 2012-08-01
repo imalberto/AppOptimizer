@@ -1,0 +1,21 @@
+[
+    {
+        "settings": [ "master" ],
+
+        "//type": "FirstByteFrameMojit",
+        "type": "HTMLFrameMojit",
+        "config": {
+            "deploy": true,
+            "title": "Test App",
+            "child": {
+                "base": "four"
+            },
+            "assets": {
+                "top": {
+                    "blob": [],
+                    "css": []
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "settings": [ "master" ],
+        "mojitsDirs": [
+            "./mojits"
+        ],
+        "viewEngine": {
+            "mu": {
+                "bufferOutput": true
+            }
+        },
+        "deployRuntimeClient": {
+            "//": "optimize how the mojito-client runtime is deployed",
+            "//": "can provide mulitple options",
+            "//compress": "compresses the binderMap[viewId].needs deps",
+            "compress": true
+        },
+        "embedJsFilesInHtmlFrame": false,
+        "yui": {
+            "XXbase": "/Users/albertoc/fs/stage/js/yui/build/"
+        },
+        "log": {
+            "client": {
+                "level": "error",
+                "yui": false
+            },
+            "server": {
+                "level": "info",
+                "yui": true
+            }
+        }
+    },
+    {
+        "settings": [ "environment:development" ],
+        "staticHandling": {
+            "forceUpdate": true
+        }
+    }
+]

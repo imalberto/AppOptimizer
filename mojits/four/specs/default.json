@@ -1,0 +1,23 @@
+[
+    {
+        "settings": [ "master" ],
+
+        "type": "Layout",
+        "config": {
+            "children": {
+                "blockOne": {
+                    "type": "Test"
+                },
+                "blockTwo": {
+                    "type": "Test"
+                },
+                "blockThree": {
+                    "type": "Test"
+                },
+                "blockFour": {
+                    "type": "Test"
+                }
+            }
+        }
+    }
+]
