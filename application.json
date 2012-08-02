@@ -12,8 +12,12 @@
         "deployRuntimeClient": {
             "//": "optimize how the mojito-client runtime is deployed",
             "//": "can provide mulitple options",
-            "//compress": "compresses the binderMap[viewId].needs deps",
-            "compress": true
+            "useCompression": true,
+            "//": "Exclude list of keys on the config object that is deployed",
+            "exclude": [
+                "assets",
+                "log"
+            ]
         },
         "embedJsFilesInHtmlFrame": false,
         "yui": {
