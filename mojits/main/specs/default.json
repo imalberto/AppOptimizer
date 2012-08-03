@@ -4,6 +4,7 @@
 
         "//type": "FirstByteFrameMojit",
         "type": "HTMLFrameMojit",
+        "action": "index",
         "config": {
             "deploy": true,
             "title": "Test App",
@@ -16,6 +17,12 @@
                     "css": []
                 }
             }
+        }
+    },
+    {
+        "settings": [ "environment:test" ],
+        "config": {
+            "deploy": false
         }
     }
 ]

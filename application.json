@@ -35,7 +35,36 @@
         }
     },
     {
-        "settings": [ "environment:development" ],
+        "settings": [ "environment:test" ],
+        "staticHandling": {
+            "forceUpdate": true
+        },
+        "log": {
+            "client": {
+                "level": "debug",
+                "yui": false
+            },
+            "server": {
+                "level": "debug",
+                "yui": true
+            }
+        },
+        "deployRuntimeClient": {
+            "//": "optimize how the mojito-client runtime is deployed",
+            "//": "can provide mulitple options",
+            "useCompression": true,
+            "//": "Exclude list of keys on the config object that is deployed",
+            "exclude": [
+                "assets",
+                "log"
+            ]
+        },
+        "shaker": {
+            "task": "local"
+        }
+    },
+    {
+        "settings": [ "environment:stage" ],
         "staticHandling": {
             "forceUpdate": true
         }

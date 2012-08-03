@@ -6,5 +6,8 @@
             "path": "/*",
             "call": "main.index"
         }
+    },
+    {
+    	"settings": [ "environment:test" ]
     }
 ]

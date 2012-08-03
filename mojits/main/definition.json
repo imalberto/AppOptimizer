@@ -1,0 +1,20 @@
+[
+	{
+		"settings": [ "master" ],
+		"assets": {
+			"foo.css": {
+				"path": "/master.css",
+				"type": "css"
+			}
+		}
+	},
+	{
+		"settings": [ "environment:test" ],
+		"assets": {
+			"foo.css": {
+				"path": "/test.css",
+				"type": "css"
+			}
+		}
+	}
+]
