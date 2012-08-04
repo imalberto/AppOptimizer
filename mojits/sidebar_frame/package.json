@@ -1,0 +1,19 @@
+{
+    "name": "sidebar_frame",
+    "description": "",
+    "version": "0.1.0",
+    "keywords": [ "" ],
+    "maintainers": [ "" ],
+    "contributors": [ "" ],
+    "licenses": [ "MIT" ],
+    "repositories": {
+        "type": "git",
+        "url": "http://github.com//sidebar_frame.git"
+    },
+    "dependencies": {},
+    "yahoo": {
+        "mojito": {
+            "version": "*"
+        }
+    }
+}

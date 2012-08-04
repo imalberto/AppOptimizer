@@ -2,12 +2,12 @@
  * Copyright (c) 2012 Yahoo! Inc. All rights reserved.
  */
 /*jslint anon:true, sloppy:true, nomen:true*/
-YUI.add('LayoutFirstByte', function(Y, NAME) {
+YUI.add('LayoutComposite', function(Y, NAME) {
 
 /**
- * The LayoutFirstByte module.
+ * The LayoutComposite module.
  *
- * @module LayoutFirstByte
+ * @module LayoutComposite
  */
 
     /**
@@ -29,11 +29,9 @@ YUI.add('LayoutFirstByte', function(Y, NAME) {
          *        to the Mojito API.
          */
         index: function(ac) {
-            ac.firstbyte.done();
+            ac.composite.done();
         }
+
     };
 
-}, '0.0.1', {requires: [
-    'mojito',
-    'mojito-firstbyte-addon'
-]});
+}, '0.0.1', {requires: ['mojito', 'LayoutCompositeModelFoo']});

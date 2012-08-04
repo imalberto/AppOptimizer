@@ -1,18 +1,17 @@
 [
     {
         "settings": [ "master" ],
-
+        
         "type": "LayoutFirstByte",
         "config": {
             "children": {
-                "sidebar": {
-                    "type": "SidebarFrame",
+                "layout_composite": {
+                    "type": "LayoutComposite",
                     "config": {
-                        "app": {
-                            "base": "app"
-                        },
-                        "sidebar": {
-                            "label": "Yahoo! Mail"
+                        "children": {
+                            "sidebar_frame": {
+                                "base": "sidebar_frame"
+                            }
                         }
                     }
                 }
@@ -21,8 +20,13 @@
     },
     {
         "settings": [ "environment:test" ],
+        "type": "LayoutFirstByte",
         "config": {
-            "deploy": false
+            "children": {
+                "blockOne": {
+                    "base": "two"
+                }
+            }
         }
     }
 ]

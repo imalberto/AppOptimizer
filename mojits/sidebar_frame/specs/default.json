@@ -1,0 +1,18 @@
+[
+    {
+        "settings": [ "master" ],
+        "type": "SidebarFrame",
+        "config": {
+            "app": {
+                "base": "app"
+            },
+            "sidebar": {
+                "label": "Yahoo! Mail"
+            },
+            "reveal": true
+        }
+    },
+    {
+        "settings": [ "environment:test" ]
+    }
+]

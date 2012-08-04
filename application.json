@@ -25,11 +25,15 @@
         },
         "log": {
             "client": {
-                "level": "error",
-                "yui": false
+                "buffer": false,
+                "defaultLevel": "debug",
+                "level": "mojito",
+                "yui": true
             },
             "server": {
-                "level": "info",
+                "buffer": false,
+                "defaultLevel": "debug",
+                "level": "debug",
                 "yui": true
             }
         },
@@ -63,7 +67,7 @@
             ]
         },
         "shaker": {
-            "task": "local"
+            "task": "raw"
         }
     },
     {

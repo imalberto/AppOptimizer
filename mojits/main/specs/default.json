@@ -1,7 +1,7 @@
 [
     {
         "settings": [ "master" ],
-
+        "//": "change type, and change layout_frame vs layout_firstbyte",
         "type": "FirstByteFrameMojit",
         "action": "index",
         "config": {
@@ -13,8 +13,49 @@
             "assets": {
                 "top": {
                     "blob": [],
-                    "css": [
-                        "http://yui.yahooapis.com/3.5.1/build/cssreset/cssreset-min.css"
+                    "cssXX": [
+                        "/static/SidebarFrame/assets/common/base.css",
+                        "/static/Sidebar/assets/common/base.css",
+                        "/static/ModalView/assets/common/base.css",
+                        "/static/SearchView/assets/common/base.css",
+                        "/static/TableView/assets/common/base.css"
+                    ],
+                    "css2": [
+                        "http://yui.yahooapis.com/3.5.1-2/build/cssreset/ssreset-min.css",
+                        "http://yui.yahooapis.com/combo?3.5.1/build/cssreset/cssreset-min.css",
+                        "/static/AppOptimizer/assets/compiled/SidebarFrame_index_39a43764d38185a2e4c3ccfe25264762.css",
+                        "/static/AppOptimizer/assets/compiled/Sidebar_index_1cc9e7a7ea2838dd82994549240f63e3.css",
+                        "/static/AppOptimizer/assets/compiled/ModalView_index_f2fbf95bb9a7d438b22f8691ba60a5c4.css",
+                        "/static/AppOptimizer/assets/compiled/SearchView_index_f90167b684e16ff8d2d63241234d4430.css",
+                        "/static/AppOptimizer/assets/compiled/TableView_table_f29b79af0b065eed03e758ece6789359.css",
+                        "http://yui.yahooapis.com/combo?3.5.1-2/build/cssreset/cssreset-min.css",
+                        "/static/SidebarFrame/assets/common/base.css",
+                        "/static/Sidebar/assets/common/base.css",
+                        "/static/ModalView/assets/common/base.css",
+                        "/static/SearchView/assets/common/base.css",
+                        "/static/TableView/assets/common/base.css"
+                    ],
+                    "js2": [
+                    ],
+                    "js3": [
+                        "http://yui.yahooapis.com/combo?3.5.1-2/build/yui/yui-min.js&3.5.1-2/build/yui-base/yui-base-min.js&3.5.1-2/build/oop/oop-min.js&3.5.1-2/build/event-custom-base/event-custom-base-min.js&3.5.1-2/build/event-custom-complex/event-custom-complex-min.js&3.5.1-2/build/intl-base/intl-base-min.js&3.5.1-2/build/intl/intl-min.js&3.5.1-2/build/features/features-min.js&3.5.1-2/build/dom-core/dom-core-min.js&3.5.1-2/build/dom-base/dom-base-min.js&3.5.1-2/build/selector-native/selector-native-min.js&3.5.1-2/build/selector/selector-min.js&3.5.1-2/build/node-core/node-core-min.js&3.5.1-2/build/node-base/node-base-min.js&3.5.1-2/build/event-base/event-base-min.js&3.5.1-2/build/querystring-stringify-simple/querystring-stringify-simple-min.js&3.5.1-2/build/io-base/io-base-min.js&3.5.1-2/build/event-delegate/event-delegate-min.js&3.5.1-2/build/get/get-min.js&3.5.1-2/build/json-stringify/json-stringify-min.js&3.5.1-2/build/array-extras/array-extras-min.js&3.5.1-2/build/querystring-parse/querystring-parse-min.js&3.5.1-2/build/cookie/cookie-min.js&3.5.1-2/build/querystring-stringify/querystring-stringify-min.js&3.5.1-2/build/json-parse/json-parse-min.js&3.5.1-2/build/node-event-delegate/node-event-delegate-min.js&3.5.1-2/build/pluginhost-base/pluginhost-base-min.js&3.5.1-2/build/pluginhost-config/pluginhost-config-min.js&3.5.1-2/build/node-pluginhost/node-pluginhost-min.js&3.5.1-2/build/dom-style/dom-style-min.js&3.5.1-2/build/dom-style-ie/dom-style-ie-min.js&3.5.1-2/build/dom-screen/dom-screen-min.js&3.5.1-2/build/node-screen/node-screen-min.js&3.5.1-2/build/node-style/node-style-min.js&3.5.1-2/build/event-synthetic/event-synthetic-min.js&3.5.1-2/build/event-mouseenter/event-mouseenter-min.js&3.5.1-2/build/event-focus/event-focus-min.js&3.5.1-2/build/event-valuechange/event-valuechange-min.js&3.5.1-2/build/event-touch/event-touch-min.js&3.5.1-2/build/attribute-core/attribute-core-min.js&3.5.1-2/build/base-core/base-core-min.js&3.5.1-2/build/attribute-events/attribute-events-min.js",
+                        "http://yui.yahooapis.com/combo?3.5.1-2/build/attribute-extras/attribute-extras-min.js&3.5.1-2/build/attribute-base/attribute-base-min.js&3.5.1-2/build/base-base/base-base-min.js&3.5.1-2/build/base-pluginhost/base-pluginhost-min.js&3.5.1-2/build/base-build/base-build-min.js&3.5.1-2/build/yui-throttle/yui-throttle-min.js&3.5.1-2/build/classnamemanager/classnamemanager-min.js&3.5.1-2/build/dd-ddm-base/dd-ddm-base-min.js&3.5.1-2/build/dd-drag/dd-drag-min.js&3.5.1-2/build/dd-constrain/dd-constrain-min.js&3.5.1-2/build/dd-proxy/dd-proxy-min.js&3.5.1-2/build/event-resize/event-resize-min.js&3.5.1-2/build/dd-ddm/dd-ddm-min.js&3.5.1-2/build/dd-ddm-drop/dd-ddm-drop-min.js&3.5.1-2/build/dd-drop/dd-drop-min.js&3.5.1-2/build/dd-scroll/dd-scroll-min.js&3.5.1-2/build/event-flick/event-flick-min.js&3.5.1-2/build/event-move/event-move-min.js&3.5.1-2/build/dd-gestures/dd-gestures-min.js&3.5.1-2/build/jsonp/jsonp-min.js&3.5.1-2/build/jsonp-url/jsonp-url-min.js&3.5.1-2/build/yql/yql-min.js&3.5.1-2/build/history-base/history-base-min.js&3.5.1-2/build/history-html5/history-html5-min.js",
+                        "/static/FirstByteFrameMojit/controller.client.js",
+                        "/static/SidebarFrame/binders/index.js",
+                        "/static/Sidebar/controller.common.js",
+                        "/static/Sidebar/autoload/sidebar-stack/sidebar-stack.client.js",
+                        "/static/Sidebar/autoload/gesture-swipe/gesture-swipe.client.js",
+                        "/static/Sidebar/autoload/scroll/scroll.client.js",
+                        "/static/Sidebar/binders/index.js",
+                        "/static/ModalView/binders/index.js",
+                        "/static/Test/binders/index.js",
+                        "/static/SearchView/controller.common.js",
+                        "/static/AppOptimizer/models/sidebarproduct.common.js",
+                        "/static/SearchView/binders/index.js",
+                        "/static/TableView/controller.common.js",
+                        "/static/TableView/autoload/vector2d/vector2d.common.js",
+                        "/static/TableView/autoload/event-multitouch/event-multitouch.client.js",
+                        "/static/TableView/binders/table.js"
                     ]
                 }
             }
@@ -22,8 +63,25 @@
     },
     {
         "settings": [ "environment:test" ],
+        "type": "ShakerHTMLFrameMojit",
+        "action": "index",
         "config": {
-            "deploy": false
+            "deploy": true,
+            "title": "Test App",
+            "child": {
+                "base": "sidebar_frame"
+            },
+            "assets": {
+                "top": {
+                    "blob": [],
+                    "css": [
+                        "http://yui.yahooapis.com/3.5.1/build/cssreset/ssreset-min.css",
+                        "http://yui.yahooapis.com/combo?3.5.1/build/cssreset/cssreset-min.css"
+                    ],
+                    "js": [
+                    ]
+                }
+            }
         }
     }
 ]

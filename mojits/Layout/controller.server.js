@@ -29,10 +29,19 @@ YUI.add('Layout', function(Y, NAME) {
          *        to the Mojito API.
          */
         index: function(ac) {
-            // ac.firstbyte.done();
             ac.composite.done();
+        },
+
+        productList: function(ac) {
+            ac.done({
+                type: "table",
+                array: [{
+                    label: "Home",
+                    link: "/re"
+                }]
+            }, 'json');
         }
 
     };
 
-}, '0.0.1', {requires: ['mojito', 'mojito-firstbyte-addon']});
+}, '0.0.1', {requires: ['mojito']});
