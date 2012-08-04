@@ -2,19 +2,20 @@
     {
         "settings": [ "master" ],
 
-        "//type": "FirstByteFrameMojit",
-        "type": "HTMLFrameMojit",
+        "type": "FirstByteFrameMojit",
         "action": "index",
         "config": {
             "deploy": true,
             "title": "Test App",
             "child": {
-                "base": "four"
+                "base": "layout_firstbyte"
             },
             "assets": {
                 "top": {
                     "blob": [],
-                    "css": []
+                    "css": [
+                        "http://yui.yahooapis.com/3.5.1/build/cssreset/cssreset-min.css"
+                    ]
                 }
             }
         }

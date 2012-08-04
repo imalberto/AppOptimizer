@@ -1,1 +1,5 @@
 artifacts/
+assets/compiled/
+autoload/compiled/
+mystore.json
+myAppConfig.json

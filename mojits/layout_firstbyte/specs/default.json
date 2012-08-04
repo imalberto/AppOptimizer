@@ -1,0 +1,28 @@
+[
+    {
+        "settings": [ "master" ],
+
+        "type": "LayoutFirstByte",
+        "config": {
+            "children": {
+                "sidebar": {
+                    "type": "SidebarFrame",
+                    "config": {
+                        "app": {
+                            "base": "app"
+                        },
+                        "sidebar": {
+                            "label": "Yahoo! Mail"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "settings": [ "environment:test" ],
+        "config": {
+            "deploy": false
+        }
+    }
+]
