@@ -41,11 +41,11 @@
         },
         "log": {
             "client": {
-                "level": "debug",
+                "level": "mojito",
                 "yui": false
             },
             "server": {
-                "level": "debug",
+                "level": "mojito",
                 "yui": true
             }
         },
